@@ -70,7 +70,7 @@ const InvitationForm = () => {
               placeholder="admin@example.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="pl-10 bg-surface-100 border-surface-300 text-foreground placeholder:text-muted-foreground focus:border-primary focus:ring-primary"
+              className="pl-10 bg-surface-100 border-surface-300 text-foreground placeholder:text-muted-foreground  focus:ring-primary"
               disabled={isLoading}
             />
           </div>
